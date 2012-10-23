@@ -14,6 +14,14 @@ Clone the repo, `git clone https://github.com/MakeItFluent/endeca-heatmap-portle
 Follow the SDK development guide to build and deploy the portlet.
 
 
+Licenses
+--------
+
+This source code is covered by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+This portlet uses the Google Maps Javascript API V3 - [License information](https://developers.google.com/maps/licensing).
+
+
 Authors
 -------
 
