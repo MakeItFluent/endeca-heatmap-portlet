@@ -1,4 +1,4 @@
-[Heatmap Module for Endeca Information Discovery](http://fluent.github.com/endeca-heatmap-portlet)
+[Heatmap Portlet for Endeca Information Discovery](https://github.com/MakeItFluent/endeca-heatmap-portlet)
 ==================================================================================================
 
 Heatmap Portlet is a proof of concept portlet for Endeca Information Discovery Studio which uses Google Maps API to generate and display a heatmap for any latitude/longitude data in Endeca - with an optional weight field.
