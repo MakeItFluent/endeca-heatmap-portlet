@@ -1,0 +1,28 @@
+<%--
+/**
+ * import-javascript-dependencies.jspf
+ *
+ * This file uses jQuery to synchronously import any portlet JavaScript dependencies.
+ *
+ * JavaScript dependencies should also be enumerated as <header-portlet-javascript> elements in WEB-INF/liferay-portlet.xml
+ *
+ * They are needed in this file as a backup for scenarios where the portlet is initially added (dragged to the page) - 
+ * in this scenario, the header-portlet-javascript does not have the opportunity to take effect, and we must bring in
+ * the JavaScript another way.
+ */
+--%>
+<script type="text/javascript">
+	if(typeof(Endeca) == "undefined" 
+	|| typeof(Endeca.Portlets) == "undefined" 
+	|| typeof(Endeca.Portlets.SamplePortlet) == "undefined"
+	) {
+		jQuery.ajaxSetup({async: false});
+		jQuery.getScript('//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.1/underscore-min.js');
+		jQuery.getScript('//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.5.0-dev/mustache.min.js');
+		jQuery.getScript('<portlet:resourceURL escapeXml="false" id="/js/custom.js"/>');
+		jQuery.getScript('<portlet:resourceURL escapeXml="false" id="/js/endeca-sample-controller.js"/>');
+		jQuery.getScript('<portlet:resourceURL escapeXml="false" id="/js/endeca-sample-viewmodel.js"/>');
+		jQuery.getScript('<portlet:resourceURL escapeXml="false" id="/js/endeca-sample-editmodel.js"/>');
+		jQuery.ajaxSetup({async: true});
+	}
+</script>

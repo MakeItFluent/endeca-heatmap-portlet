@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<project name="endeca-heatmap-portlet" basedir="." default="deploy">
+	<property name="shared.libs" value="endeca-common-resources,endeca-discovery-taglib" />
+	<property name="endeca-common-resources.includes" value="**/*" />
+	<property name="endeca-common-resources.excludes" value="" />
+	<import file="../build-common-portlet.xml" />
+</project>

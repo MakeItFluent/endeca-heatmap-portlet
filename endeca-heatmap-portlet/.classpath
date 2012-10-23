@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/**|.svn/" kind="src" path="docroot/WEB-INF/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="DF_GLOBAL_LIB/ext/portlet.jar"/>
+	<classpathentry kind="var" path="DF_GLOBAL_LIB/ext/endeca-portal.jar"/>
+	<classpathentry kind="var" path="DF_PORTAL_LIB/log4j.jar"/>
+	<classpathentry kind="var" path="DF_PORTAL_LIB/jabsorb.jar"/>
+	<classpathentry kind="var" path="DF_GLOBAL_LIB/ext/mdex_bindings.jar"/>
+	<classpathentry kind="var" path="DF_PORTAL_LIB/commons-io.jar"/>
+	<classpathentry kind="var" path="DF_GLOBAL_LIB/ext/jackson-core-lgpl-1.7.2.jar"/>
+	<classpathentry kind="var" path="DF_GLOBAL_LIB/ext/jackson-mapper-lgpl-1.7.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

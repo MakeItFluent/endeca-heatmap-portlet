@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 5.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_5_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>endeca-heatmap-portlet</portlet-name>
+		<icon>/application.png</icon>
+		<instanceable>true</instanceable>
+		<!-- CSS files added here will be added to the html head of a portal page that contains this portlet -->
+		<header-portlet-css>/css/endeca-sample.css</header-portlet-css>
+		<!-- JS libraries -->
+ 		<header-portlet-javascript>http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.1/underscore-min.js</header-portlet-javascript>
+ 		<header-portlet-javascript>http:////cdnjs.cloudflare.com/ajax/libs/mustache.js/0.5.0-dev/mustache.min.js</header-portlet-javascript>
+ 		<header-portlet-javascript>http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=visualization</header-portlet-javascript>
+ 		<!-- File with the custom heatmap JS code --> 
+ 		<header-portlet-javascript>/js/custom.js</header-portlet-javascript>
+		<!-- JavaScript files added here will be added to the html head of a portal page that contains this portlet -->
+ 		<header-portlet-javascript>/js/endeca-sample-controller.js</header-portlet-javascript>
+ 		<header-portlet-javascript>/js/endeca-sample-viewmodel.js</header-portlet-javascript>
+ 		<header-portlet-javascript>/js/endeca-sample-editmodel.js</header-portlet-javascript>
+	</portlet>
+</liferay-portlet-app>
