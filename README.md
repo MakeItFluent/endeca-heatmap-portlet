@@ -9,15 +9,9 @@ Quick start
 
 Install Edeca Server, Endeca Information Discovery Studio, and the Endeca Information Discovery Components SDK.
 
-Clone the repo, `git clone git://github.com/fluent/endeca-heatmap-portlet.git` into the folder `EID_Studio_components_sdk/components/portlets/endeca-heatmap-portlet`.
+Clone the repo, `git clone https://github.com/MakeItFluent/endeca-heatmap-portlet.git` into the folder `EID_Studio_components_sdk/components/portlets/endeca-heatmap-portlet`.
 
 Follow the SDK development guide to build and deploy the portlet.
-
-
-Notes
------
-
-The available latitude and longitude field names are hardcoded in the 
 
 
 Authors
